@@ -1,15 +1,12 @@
 package com.alvl.nix.homework.lesson13.statesubstance;
 
-import com.sun.source.tree.WhileLoopTree;
-
 import java.util.Scanner;
 
 public class Chemistry {
     public static void main(String[] args) {
-        String chooseSubstance = "Choose yout substance: 1 - Oxygen, 2 - Water, 3 - Iron!";
+        System.out.println("Choose your substance: 1 - Oxygen, 2 - Water, 3 - Iron!");
         var scannerSubstance = new Scanner(System.in);
         Substance substance = null;
-        System.out.println(chooseSubstance);
         switch (scannerSubstance.nextInt()) {
             case 1:
                 substance = new Oxygen();

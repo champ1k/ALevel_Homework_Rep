@@ -1,12 +1,13 @@
 package com.alvl.nix.homework.lesson13.statesubstance;
 
-public class Water implements Substance{
-    private double waterTemp  = initialTemperature;
+public class Water implements Substance {
+    private double waterTemp = initialTemperature;
     private State waterState;
+
     @Override
     public State heatUp(double t) {
 
-        waterTemp = t+waterTemp;
+        waterTemp = t + waterTemp;
         if (waterTemp > getBoilingTemperature()) {
             waterState = State.GAS;
         } else if (waterTemp > getMeltingTemperature()) {
@@ -31,9 +32,9 @@ public class Water implements Substance{
     public double getMeltingTemperature() {
         return 0.0;
     }
+
     @Override
-    public String toString()
-    {
+    public String toString() {
         return "Water";
     }
 }
