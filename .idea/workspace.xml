@@ -2242,7 +2242,12 @@
       <change afterPath="$PROJECT_DIR$/../untitled/out/production/untitled/com/company/Main.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/src/com/company/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml~homework_homework" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tictactoe/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson11/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tictactoe/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson11/tictactoe/TicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tictactoelog.log" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -2254,8 +2259,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -2276,14 +2283,21 @@
     </option>
   </component>
   <component name="ProjectId" id="1YRMTnKYDnd4SW0LXSNurVreuUr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.40689656" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Егор\IdeaProjects\corehomework\src\main\java\com\alvl\nix\homework\lesson11" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -2302,7 +2316,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Chemistry">
+    <configuration name="Chemistry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson13.statesubstance.Chemistry" />
+      <module name="corehomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alvl.nix.homework.lesson13.statesubstance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GamePlay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson12.GamePlay" />
       <module name="corehomework" />
@@ -2316,8 +2343,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Group" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson13.group.Group" />
+      <module name="corehomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alvl.nix.homework.lesson13.group.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="University" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson13.group.University" />
+      <module name="corehomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alvl.nix.homework.lesson13.group.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Chemistry" />
+        <item itemvalue="Application.University" />
+        <item itemvalue="Application.Group" />
         <item itemvalue="Application.GamePlay" />
       </list>
     </recent_temporary>
@@ -2333,7 +2389,10 @@
       <option name="presentableId" value="Default" />
       <updated>1582900963394</updated>
       <workItem from="1582900967624" duration="15438000" />
-      <workItem from="1582937503413" duration="7640000" />
+      <workItem from="1582937503413" duration="8253000" />
+      <workItem from="1582968762081" duration="1328000" />
+      <workItem from="1583085379232" duration="5570000" />
+      <workItem from="1583154556561" duration="4391000" />
     </task>
     <servers />
   </component>

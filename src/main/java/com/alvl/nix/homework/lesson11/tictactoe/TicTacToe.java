@@ -1,3 +1,7 @@
+package com.alvl.nix.homework.lesson11.tictactoe;
+
+import com.alvl.nix.homework.lesson11.player.Player;
+
 import java.util.logging.*;
 
 import java.io.IOException;

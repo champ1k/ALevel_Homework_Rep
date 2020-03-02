@@ -1,3 +1,5 @@
+package com.alvl.nix.homework.lesson11.player;
+
 import java.util.Scanner;
 
 
