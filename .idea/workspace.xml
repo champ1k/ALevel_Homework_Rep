@@ -2207,6 +2207,16 @@
       <change afterPath="$PROJECT_DIR$/../Java. Statements and Arrays1/course-info.yaml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Java. Statements and Arrays1/course-remote-info.yaml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Java. Statements and Arrays1/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson13/group/ContractStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson13/group/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson13/group/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson13/group/University.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson13/statesubstance/Chemistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson13/statesubstance/Iron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson13/statesubstance/Oxygen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson13/statesubstance/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson13/statesubstance/Substance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson13/statesubstance/Water.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../desktop.ini" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../gitbox" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../homework/secondcore/src/main/java/com/alevel/java/nix/medianoftwoarrays/MedianOfTwoArrays.java" afterDir="false" />
@@ -2392,7 +2402,7 @@
       <workItem from="1582937503413" duration="8253000" />
       <workItem from="1582968762081" duration="1328000" />
       <workItem from="1583085379232" duration="5570000" />
-      <workItem from="1583154556561" duration="4391000" />
+      <workItem from="1583154556561" duration="4723000" />
     </task>
     <servers />
   </component>
