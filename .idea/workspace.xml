@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5b7a38ca-76a7-45e2-98df-ccc4e36a79c4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corehomework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/corehomework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson13/statesubstance/Chemistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson13/statesubstance/Chemistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson13/statesubstance/Water.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson13/statesubstance/Water.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +42,15 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40689656" />
   </component>
   <component name="RecentsManager">
@@ -74,7 +75,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Chemistry">
+  <component name="RunManager" selected="Application.ArithmeticProgression">
+    <configuration name="ArithmeticProgression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson14.ArithmeticProgression" />
+      <module name="corehomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alvl.nix.homework.lesson14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Chemistry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson13.statesubstance.Chemistry" />
       <module name="corehomework" />
@@ -129,6 +143,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArithmeticProgression" />
         <item itemvalue="Application.Chemistry" />
         <item itemvalue="Application.University" />
         <item itemvalue="Application.Group" />
@@ -152,6 +167,7 @@
       <workItem from="1583085379232" duration="5570000" />
       <workItem from="1583154556561" duration="4723000" />
       <workItem from="1583168266040" duration="4312000" />
+      <workItem from="1583774089261" duration="3798000" />
     </task>
     <servers />
   </component>
@@ -170,5 +186,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add homework for lesson 13." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add homework for lesson 13." />
   </component>
 </project>
