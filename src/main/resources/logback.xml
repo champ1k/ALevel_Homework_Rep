@@ -6,10 +6,10 @@
         </encoder>
     </appender>
 
-    <logger name="com.alvl.nix.homework.lesson12" level="INFO" additivity="false">
-        <appender name="ASYNC_TIC_TAC_TOE" class="ch.qos.logback.classic.AsyncAppender">
-            <appender name="TIC-TAC-TOE" class="ch.qos.logback.core.FileAppender">
-                <file>log/tic-tac-toe.txt</file>
+    <logger name="com.alvl.nix.homework.lesson14" additivity="false">
+        <appender name="ASYNC_RETRY" class="ch.qos.logback.classic.AsyncAppender">
+            <appender name="RETRY" class="ch.qos.logback.core.FileAppender">
+                <file>log/Retry.txt</file>
                 <encoder>
                     <pattern>%d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n</pattern>
                 </encoder>

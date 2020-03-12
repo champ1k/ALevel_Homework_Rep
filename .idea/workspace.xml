@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b7a38ca-76a7-45e2-98df-ccc4e36a79c4" name="Default Changelist" comment="" />
+    <list default="true" id="5b7a38ca-76a7-45e2-98df-ccc4e36a79c4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson14/lessontask/ArithmeticProgression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson14/lessontask/ArithmeticProgression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson14/lessontask/ProgressionConfigurationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson14/lessontask/ProgressionConfigurationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,9 +18,9 @@
       <list>
         <option value="Tag Library Descriptor" />
         <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -46,12 +51,16 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/log" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40689656" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Егор\IdeaProjects\corehomework\log" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Егор\IdeaProjects\corehomework\src\main\java\com\alvl\nix\homework\lesson11" />
     </key>
@@ -73,13 +82,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArithmeticProgression">
+  <component name="RunManager" selected="Application.Retry">
     <configuration name="ArithmeticProgression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson14.ArithmeticProgression" />
+      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson14.lessontask.ArithmeticProgression" />
       <module name="corehomework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alvl.nix.homework.lesson14.*" />
+          <option name="PATTERN" value="com.alvl.nix.homework.lesson14.lessontask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GamePlay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson12.GamePlay" />
+    <configuration name="Group" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson13.group.Group" />
       <module name="corehomework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alvl.nix.homework.lesson12.*" />
+          <option name="PATTERN" value="com.alvl.nix.homework.lesson13.group.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Group" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson13.group.Group" />
+    <configuration name="Retry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson14.homeworktask.Retry" />
       <module name="corehomework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alvl.nix.homework.lesson13.group.*" />
+          <option name="PATTERN" value="com.alvl.nix.homework.lesson14.homeworktask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Retry" />
         <item itemvalue="Application.ArithmeticProgression" />
         <item itemvalue="Application.Chemistry" />
         <item itemvalue="Application.University" />
         <item itemvalue="Application.Group" />
-        <item itemvalue="Application.GamePlay" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +174,9 @@
       <workItem from="1583085379232" duration="5570000" />
       <workItem from="1583154556561" duration="4723000" />
       <workItem from="1583168266040" duration="4312000" />
-      <workItem from="1583774089261" duration="4070000" />
+      <workItem from="1583774089261" duration="4137000" />
+      <workItem from="1583781820084" duration="775000" />
+      <workItem from="1583955078405" duration="5191000" />
     </task>
     <servers />
   </component>
