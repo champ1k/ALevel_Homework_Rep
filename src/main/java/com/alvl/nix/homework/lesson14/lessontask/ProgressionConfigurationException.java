@@ -1,4 +1,4 @@
-package com.alvl.nix.homework.lesson14;
+package com.alvl.nix.homework.lesson14.lessontask;
 
 public class ProgressionConfigurationException extends Exception {
     public ProgressionConfigurationException() {

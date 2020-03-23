@@ -1,4 +1,4 @@
-package com.alvl.nix.homework.lesson14;
+package com.alvl.nix.homework.lesson14.lessontask;
 
 
 public class ArithmeticProgression {
@@ -18,7 +18,7 @@ public class ArithmeticProgression {
             throw new ProgressionConfigurationException("You entered too small number, try n > 0!");
         else {
             while (count != n) {
-                result=result+step;
+                result = result + step;
                 count++;
             }
         }
@@ -29,9 +29,7 @@ public class ArithmeticProgression {
         try {
             ArithmeticProgression arithmeticProgression = new ArithmeticProgression(0, 7);
             arithmeticProgression.calculate(5);
-        }
-        catch (ProgressionConfigurationException prgexc)
-        {
+        } catch (ProgressionConfigurationException prgexc) {
             prgexc.printStackTrace();
         }
     }

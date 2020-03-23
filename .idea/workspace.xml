@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson14/lessontask/ArithmeticProgression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson14/lessontask/ArithmeticProgression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson14/lessontask/ProgressionConfigurationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson14/lessontask/ProgressionConfigurationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,14 +12,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
         <option value="FxmlFile" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,13 +62,15 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/log" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../alevel" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40689656" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -82,13 +97,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Retry">
-    <configuration name="ArithmeticProgression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson14.lessontask.ArithmeticProgression" />
+  <component name="RunManager" selected="Application.SubStrings">
+    <configuration name="BiggestDuration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson17.BiggestDuration" />
       <module name="corehomework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alvl.nix.homework.lesson14.lessontask.*" />
+          <option name="PATTERN" value="com.alvl.nix.homework.lesson17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Chemistry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson13.statesubstance.Chemistry" />
+    <configuration name="CSVAggregator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson15.lessontasks.CSVAggregator" />
       <module name="corehomework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alvl.nix.homework.lesson13.statesubstance.*" />
+          <option name="PATTERN" value="com.alvl.nix.homework.lesson15.lessontasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Group" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson13.group.Group" />
+    <configuration name="FilterNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson16.FilterNumbers" />
       <module name="corehomework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alvl.nix.homework.lesson13.group.*" />
+          <option name="PATTERN" value="com.alvl.nix.homework.lesson16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Retry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson14.homeworktask.Retry" />
+    <configuration name="GroupDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson17.GroupDate" />
       <module name="corehomework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alvl.nix.homework.lesson14.homeworktask.*" />
+          <option name="PATTERN" value="com.alvl.nix.homework.lesson17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="University" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson13.group.University" />
+    <configuration name="SubStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson18.SubStrings" />
       <module name="corehomework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alvl.nix.homework.lesson13.group.*" />
+          <option name="PATTERN" value="com.alvl.nix.homework.lesson18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Retry" />
-        <item itemvalue="Application.ArithmeticProgression" />
-        <item itemvalue="Application.Chemistry" />
-        <item itemvalue="Application.University" />
-        <item itemvalue="Application.Group" />
+        <item itemvalue="Application.SubStrings" />
+        <item itemvalue="Application.GroupDate" />
+        <item itemvalue="Application.BiggestDuration" />
+        <item itemvalue="Application.FilterNumbers" />
+        <item itemvalue="Application.CSVAggregator" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +192,17 @@
       <workItem from="1583774089261" duration="4137000" />
       <workItem from="1583781820084" duration="775000" />
       <workItem from="1583955078405" duration="5191000" />
+      <workItem from="1584033432806" duration="5964000" />
+      <workItem from="1584299679346" duration="2440000" />
+      <workItem from="1584314705293" duration="4156000" />
+      <workItem from="1584358331441" duration="1635000" />
+      <workItem from="1584379087064" duration="1905000" />
+      <workItem from="1584569048362" duration="2768000" />
+      <workItem from="1584613609285" duration="12983000" />
+      <workItem from="1584747945717" duration="3901000" />
+      <workItem from="1584898134361" duration="703000" />
+      <workItem from="1584903203378" duration="9896000" />
+      <workItem from="1584978206798" duration="5203000" />
     </task>
     <servers />
   </component>
