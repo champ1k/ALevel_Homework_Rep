@@ -1,0 +1,3 @@
+name,phonenumber,email,id_bill,id_operation,date,description,price,typename
+Jame",3801231233,"JAME@EMAIL.COM",1,1,2020-05-10 15:55:07.0,"","500","revenue"
+Jame",3801231233,"JAME@EMAIL.COM",2,2,2020-05-10 15:55:24.0,"","500","consumption"
