@@ -35,7 +35,7 @@ public class Horse implements Runnable {
     }
 
     private void pitStop() {
-        int sleepTime = random.nextInt((maxSleep - minSleep + 1) + minSleep);
+        int sleepTime = random.nextInt((maxSleep - minSleep) + minSleep);
         try {
             Thread.sleep(sleepTime);
         } catch (InterruptedException e) {
@@ -44,15 +44,14 @@ public class Horse implements Runnable {
     }
 
     private void horseRun() {
-        int move = random.nextInt((maxMove - minMove + 1) + minMove);
+        int move = random.nextInt((maxMove - minMove) + minMove);
         position += move;
     }
 
     @Override
     public void run() {
         raceTrack.getPhaser().arriveAndAwaitAdvance();
-        int distance = raceTrack.getDistance();
-        while (position < distance) {
+        while (position <  raceTrack.getDistance()) {
             horseRun();
             pitStop();
         }
