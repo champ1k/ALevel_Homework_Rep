@@ -21,14 +21,15 @@ public class MultThread implements Runnable {
             if (!file.exists()) {
                 file.createNewFile();
             }
+            synchronized (storeStrings) {
+                String quit = "quit";
+                while (!storeStrings.getInput().equals(quit)) {
+                    if (storeStrings.isChanged()) {
+                        bw.write(storeStrings.getInput());
+                        Thread.sleep(1000);
+                    }
 
-            String quit = "quit";
-            while (!storeStrings.getInput().equals(quit)) {
-                if (storeStrings.isChanged()) {
-                    bw.write(storeStrings.getInput());
-                    Thread.sleep(1000);
                 }
-
             }
         } catch (InterruptedException | IOException e) {
             e.printStackTrace();
