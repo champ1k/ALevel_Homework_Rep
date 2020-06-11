@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="javaenterprise:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5b7a38ca-76a7-45e2-98df-ccc4e36a79c4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson14/lessontask/ArithmeticProgression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson14/lessontask/ArithmeticProgression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson14/lessontask/ProgressionConfigurationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alvl/nix/homework/lesson14/lessontask/ProgressionConfigurationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secondcore/src/main/java/com/alevel/java/nix/longestcommonprefix/LongestCommonPrefix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/secondcore/src/main/java/com/alevel/java/nix/longestcommonprefix/LongestCommonPrefixTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/secondcore/src/main/java/com/alevel/java/nix/medianoftwoarrays/MedianOfTwoArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/secondcore/src/main/java/com/alevel/java/nix/medianoftwoarrays/MedianOfTwoArraysTest.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +30,63 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="privatefinance: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="privatefinance: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="bill: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="privatefinance: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="category: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="privatefinance: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="category_type: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="privatefinance: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="operation: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="privatefinance: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -53,11 +116,22 @@
       </set>
     </option>
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectId" id="1YRMTnKYDnd4SW0LXSNurVreuUr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -65,24 +139,39 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../alevel" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/pathfinder/src/main/java/com/alevel/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../servletlaba-master" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40689656" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Егор\IdeaProjects\corehomework\thirdmodule\src\main\java\nix\alvl\module\dao\jdbc" />
+      <recent name="C:\Users\Егор\IdeaProjects\corehomework\thirdmodule\src\main\resources" />
+      <recent name="C:\Users\Егор\IdeaProjects\corehomework\.idea\libraries" />
       <recent name="C:\Users\Егор\IdeaProjects\corehomework\log" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Егор\IdeaProjects\corehomework\src\main\java\com\alvl\nix\homework\lesson11" />
+      <recent name="C:\Users\Егор\IdeaProjects\corehomework\javaenterprise\web" />
+      <recent name="C:\Users\Егор\IdeaProjects\corehomework\javaee" />
+      <recent name="C:\Users\Егор\IdeaProjects\corehomework\javaee\src\main\webapp" />
+      <recent name="C:\Users\Егор\IdeaProjects\corehomework\javaee\src\main\app" />
+      <recent name="C:\Users\Егор\IdeaProjects\corehomework\javaee\src\main" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn compile" />
+      <command value="mvn " />
+      <command value="mvn clean package" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -97,13 +186,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SubStrings">
-    <configuration name="BiggestDuration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson17.BiggestDuration" />
-      <module name="corehomework" />
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.56">
+    <configuration name="CsvExport" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nix.alvl.module.io.CsvExport" />
+      <module name="thirdmodule" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alvl.nix.homework.lesson17.*" />
+          <option name="PATTERN" value="nix.alvl.module.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +200,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CSVAggregator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson15.lessontasks.CSVAggregator" />
+    <configuration name="Hippodrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson33.Hippodrome" />
       <module name="corehomework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alvl.nix.homework.lesson15.lessontasks.*" />
+          <option name="PATTERN" value="com.alvl.nix.homework.lesson33.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +213,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson16.FilterNumbers" />
-      <module name="corehomework" />
+    <configuration name="PrivateFinancesJPARunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nix.alvl.module.runners.PrivateFinancesJPARunner" />
+      <module name="thirdmodule" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alvl.nix.homework.lesson16.*" />
+          <option name="PATTERN" value="nix.alvl.module.runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +226,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson17.GroupDate" />
+    <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson19.assignment.Runner" />
       <module name="corehomework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alvl.nix.homework.lesson17.*" />
+          <option name="PATTERN" value="com.alvl.nix.homework.lesson19.assignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +239,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson18.SubStrings" />
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alvl.nix.homework.lesson32.Runner" />
       <module name="corehomework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alvl.nix.homework.lesson18.*" />
+          <option name="PATTERN" value="com.alvl.nix.homework.lesson32.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,15 +252,190 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat 8.5.56" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" editBeforeRun="true" APPLICATION_SERVER_NAME="Tomcat 8.5.56" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="53e2f627-b1a7-4dfa-bfa7-5b83cc034776" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="javaenterprise:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/javaenterprise_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_56_corehomework_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55732" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="MakeProject" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="javaenterprise:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" editBeforeRun="true" APPLICATION_SERVER_NAME="Tomcat 8.5.56" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="53e2f627-b1a7-4dfa-bfa7-5b83cc034776" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="javaee:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/javaee_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_corehomework" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55732" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="javaee:war" />
+          <artifact name="javaenterprise:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CsvExport" />
+      <item itemvalue="Application.Hippodrome" />
+      <item itemvalue="Application.PrivateFinancesJPARunner" />
+      <item itemvalue="Application.Runner" />
+      <item itemvalue="Application.Runner (1)" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.56" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SubStrings" />
-        <item itemvalue="Application.GroupDate" />
-        <item itemvalue="Application.BiggestDuration" />
-        <item itemvalue="Application.FilterNumbers" />
-        <item itemvalue="Application.CSVAggregator" />
+        <item itemvalue="Application.Runner (1)" />
+        <item itemvalue="Application.Hippodrome" />
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.PrivateFinancesJPARunner" />
+        <item itemvalue="Application.CsvExport" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@63c91c15" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@63c91c15" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@a8b092b" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -203,6 +467,49 @@
       <workItem from="1584898134361" duration="703000" />
       <workItem from="1584903203378" duration="9896000" />
       <workItem from="1584978206798" duration="5203000" />
+      <workItem from="1586094259663" duration="807000" />
+      <workItem from="1586173048218" duration="1272000" />
+      <workItem from="1586192251807" duration="7630000" />
+      <workItem from="1586268622748" duration="3947000" />
+      <workItem from="1586288710990" duration="1795000" />
+      <workItem from="1586365574512" duration="6157000" />
+      <workItem from="1586382820385" duration="2798000" />
+      <workItem from="1586398644249" duration="2347000" />
+      <workItem from="1586420866556" duration="8257000" />
+      <workItem from="1586442538545" duration="1180000" />
+      <workItem from="1586448090653" duration="1289000" />
+      <workItem from="1586794244729" duration="5641000" />
+      <workItem from="1586978768127" duration="3933000" />
+      <workItem from="1587040485448" duration="878000" />
+      <workItem from="1587052618646" duration="742000" />
+      <workItem from="1587221716322" duration="4374000" />
+      <workItem from="1587479315940" duration="5072000" />
+      <workItem from="1587708809190" duration="184000" />
+      <workItem from="1588006059138" duration="696000" />
+      <workItem from="1588260925848" duration="188000" />
+      <workItem from="1588263128735" duration="3108000" />
+      <workItem from="1588610343154" duration="786000" />
+      <workItem from="1588866307049" duration="4022000" />
+      <workItem from="1588919953991" duration="20942000" />
+      <workItem from="1589019148683" duration="5340000" />
+      <workItem from="1589028860255" duration="32506000" />
+      <workItem from="1589366784325" duration="1705000" />
+      <workItem from="1589817905975" duration="1204000" />
+      <workItem from="1589967189722" duration="3105000" />
+      <workItem from="1590005754976" duration="6084000" />
+      <workItem from="1590042019902" duration="4420000" />
+      <workItem from="1590075419467" duration="1914000" />
+      <workItem from="1590332127075" duration="9576000" />
+      <workItem from="1590393932307" duration="11645000" />
+      <workItem from="1590413476015" duration="6804000" />
+      <workItem from="1591129174997" duration="1239000" />
+      <workItem from="1591216103860" duration="2867000" />
+      <workItem from="1591694386398" duration="9307000" />
+      <workItem from="1591706234703" duration="12835000" />
+      <workItem from="1591778417173" duration="8586000" />
+      <workItem from="1591797859193" duration="4162000" />
+      <workItem from="1591804951410" duration="5393000" />
+      <workItem from="1591857319398" duration="4620000" />
     </task>
     <servers />
   </component>
@@ -224,6 +531,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add homework for lesson 13." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add homework for lesson 13." />
+    <MESSAGE value="Add assignment for lesson 21." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add assignment for lesson 21." />
   </component>
 </project>
