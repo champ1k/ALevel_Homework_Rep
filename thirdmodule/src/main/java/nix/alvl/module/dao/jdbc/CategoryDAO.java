@@ -29,7 +29,7 @@ public class CategoryDAO implements DaoI<Category> {
                 category = new Category();
                 category.setIndex(rs.getInt("id_category"));
                 category.setPrice(rs.getInt("price"));
-                category.setTypes(rs.getInt("id_type"));
+
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -116,7 +116,7 @@ public class CategoryDAO implements DaoI<Category> {
                 Category item = new Category();
                 item.setIndex(rs.getInt("id_category"));
                 item.setPrice(rs.getInt("price"));
-                item.setTypes(rs.getInt("id_type"));
+
                 result.add(item);
             }
         } catch (SQLException e) {

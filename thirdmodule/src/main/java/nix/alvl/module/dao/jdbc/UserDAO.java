@@ -29,7 +29,7 @@ public class UserDAO {
                 user.setIndex(rs.getInt("id_operation"));
                 user.setName(rs.getString("name"));
                 user.setPhonenumber(rs.getString("phonenumber"));
-                user.setBills(rs.getInt("id_bill"));
+
                 user.setAge(rs.getInt("age"));
             }
         } catch (SQLException e) {
@@ -54,7 +54,7 @@ public class UserDAO {
             statement.setInt(3, user.getAge());
             statement.setString(4, user.getPhonenumber());
             statement.setString(5, user.getEmail());
-            statement.setString(6, user.getBills());
+
             statement.execute();
 
             ResultSet generatedkeys = statement.getGeneratedKeys();
@@ -77,7 +77,7 @@ public class UserDAO {
         try {
             connection = dataSource.getConnection();
             PreparedStatement statement = connection.prepareStatement("update privatefinance.user set id_bill where id_user =?");
-            statement.setInt(1, user.getBills());
+
             statement.setInt(2, user.getIndex());
             statement.execute();
         } catch (SQLException e) {
@@ -123,7 +123,7 @@ public class UserDAO {
                 user.setIndex(rs.getInt("id_operation"));
                 user.setName(rs.getString("name"));
                 user.setPhonenumber(rs.getString("phonenumber"));
-                user.setBills(rs.getInt("id_bill"));
+
                 user.setAge(rs.getInt("age"));
             }
         } catch (SQLException e) {

@@ -85,7 +85,7 @@ public class TicTacToe {
             }
         }
 
-        if (gameFinished == true) {
+        if (gameFinished) {
             if (moveOfPlayers < 9) {
                 if (moveOfPlayers % 2 == 0) {
                     logger.info("First player win!");

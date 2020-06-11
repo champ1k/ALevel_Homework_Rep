@@ -60,7 +60,7 @@ public class Player {
                 y = 2;
                 break;
             default:
-                System.out.printf("This move is not available! Enter correct move!\n");
+                System.out.print("This move is not available! Enter correct move!\n");
                 return gridOfGame;
         }
 

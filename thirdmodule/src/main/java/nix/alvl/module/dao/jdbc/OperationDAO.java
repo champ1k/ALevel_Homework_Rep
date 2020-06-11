@@ -27,7 +27,7 @@ public class OperationDAO implements DaoI<Operation> {
             while (rs.next()) {
                 operation = new Operation();
                 operation.setIndex(rs.getInt("id_operation"));
-                operation.setCategories(rs.getInt("price"));
+
                 operation.setDate(rs.getTimestamp("date"));
             }
         } catch (SQLException e) {
@@ -48,7 +48,7 @@ public class OperationDAO implements DaoI<Operation> {
             connection = dataSource.getConnection();
             PreparedStatement statement = connection.prepareStatement("insert into privatefinance.operation values (?,?,?)", Statement.RETURN_GENERATED_KEYS);
             statement.setInt(1, operation.getIndex());
-            statement.setInt(2, operation.getCategories());
+
             statement.setTimestamp(3, operation.getDate());
             statement.execute();
 
@@ -72,7 +72,7 @@ public class OperationDAO implements DaoI<Operation> {
         try {
             connection = dataSource.getConnection();
             PreparedStatement statement = connection.prepareStatement("update privatefinance.operation set id_category where id_operation =?");
-            statement.setInt(1, operation.getCategories());
+
             statement.setInt(2, operation.getIndex());
             statement.execute();
         } catch (SQLException e) {
@@ -115,7 +115,7 @@ public class OperationDAO implements DaoI<Operation> {
             while (rs.next()) {
                 Operation item = new Operation();
                 item.setIndex(rs.getInt("id_operation"));
-                item.setCategories(rs.getInt("id_category"));
+
                 item.setDate(rs.getTimestamp("date"));
                 result.add(item);
             }

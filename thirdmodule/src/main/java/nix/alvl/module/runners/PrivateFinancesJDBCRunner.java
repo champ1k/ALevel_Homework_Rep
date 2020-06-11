@@ -36,7 +36,7 @@ public class PrivateFinancesJDBCRunner {
         Operation operation = new Operation();
         operation.setIndex(2);
         operation.setCategories(categories);
-        operation.setDate(18882188);
+
         operation.setDescription("");
         operations.add(operation);
         operationDAO.save(operation);

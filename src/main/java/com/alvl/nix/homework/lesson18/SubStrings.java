@@ -2,6 +2,7 @@ package com.alvl.nix.homework.lesson18;
 
 
 import java.io.IOException;
+import java.io.UncheckedIOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -17,7 +18,8 @@ public class SubStrings {
     }
 
     public static void findSubString(String s) {
-        Path source = Paths.get("C:\\Users\\Егор\\IdeaProjects\\corehomework\\src\\main\\java\\com\\alvl\\nix\\homework\\lesson18\\substrings.txt");//C:\Users\Егор\IdeaProjects\corehomework\src\main\java\com\alvl\nix\homework\lesson18
+
+        Path source = Paths.get("C:\\Users\\Егор\\IdeaProjects\\corehomework\\src\\main\\java\\com\\alvl\\nix\\homework\\lesson18\\substrings.txt");
         List<String> lines = new ArrayList<>();
         try (Scanner scanner = new Scanner(source)) {
             while (scanner.hasNext()) {
@@ -25,10 +27,11 @@ public class SubStrings {
                 if (scanned.contains(s))
                     lines.add(scanned);
             }
+            lines.forEach(System.out::println);
         } catch (IOException ignored) {
             throw new RuntimeException(ignored);
         }
-        lines.forEach(System.out::println);
+
     }
 
 }
